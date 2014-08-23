@@ -1,0 +1,399 @@
+android.annotation.SuppressLint
+android.annotation.SuppressLint: java.lang.String[] value()
+android.annotation.TargetApi
+android.annotation.TargetApi: int value()
+com.ben.ap.AP
+com.ben.ap.AP: java.lang.String mSsid
+com.ben.ap.AP: android.os.Handler mHandler
+com.ben.ap.AP: AP()
+com.ben.ap.AP: java.util.ArrayList getLoginParam()
+com.ben.ap.AP: int startDisconnect()
+com.ben.ap.AP: int startConnect()
+com.ben.ap.AP: org.apache.http.client.HttpClient getHttpClient()
+com.ben.ap.BUPT1
+com.ben.ap.BUPT1: java.lang.String getConnPath()
+com.ben.ap.BUPT1: java.lang.String getDisconnPath()
+com.ben.ap.BUPT1: BUPT1(java.lang.String,java.lang.String)
+com.ben.ap.BUPT1: BUPT1()
+com.ben.ap.BUPT1: java.util.ArrayList getLoginParam()
+com.ben.ap.BUPT1: int startDisconnect()
+com.ben.ap.BUPT1_OLD
+com.ben.ap.BUPT1_OLD: java.lang.String getConnPath()
+com.ben.ap.BUPT1_OLD: java.lang.String getDisconnPath()
+com.ben.ap.BUPT1_OLD: BUPT1_OLD(java.lang.String,java.lang.String)
+com.ben.ap.BUPT1_OLD: BUPT1_OLD()
+com.ben.ap.BUPT1_OLD: java.util.ArrayList getLoginParam()
+com.ben.ap.BUPT1_OLD: int startDisconnect()
+com.ben.ap.BUPT2
+com.ben.ap.BUPT2: java.lang.String getConnPath()
+com.ben.ap.BUPT2: java.lang.String getDisconnPath()
+com.ben.ap.BUPT2: BUPT2(java.lang.String,java.lang.String)
+com.ben.ap.BUPT2: BUPT2()
+com.ben.ap.BUPT2: java.util.ArrayList getLoginParam()
+com.ben.ap.BUPT2: int startDisconnect()
+com.ben.ap.BUPT2_OLD
+com.ben.ap.BUPT2_OLD: java.lang.String getConnPath()
+com.ben.ap.BUPT2_OLD: java.lang.String getDisconnPath()
+com.ben.ap.BUPT2_OLD: BUPT2_OLD(java.lang.String,java.lang.String)
+com.ben.ap.BUPT2_OLD: BUPT2_OLD()
+com.ben.ap.BUPT2_OLD: java.util.ArrayList getLoginParam()
+com.ben.ap.BUPT2_OLD: java.util.ArrayList getLogoffParam()
+com.ben.ap.BUPT2_OLD: int startDisconnect()
+com.ben.ap.BUPT3
+com.ben.ap.BUPT3: java.lang.String getConnPath()
+com.ben.ap.BUPT3: java.lang.String getDisconnPath()
+com.ben.ap.BUPT3: BUPT3(java.lang.String,java.lang.String)
+com.ben.ap.BUPT3: BUPT3()
+com.ben.ap.BUPT3: java.util.ArrayList getLoginParam()
+com.ben.ap.BUPT3: int startDisconnect()
+com.ben.ap.BUPT3_OLD
+com.ben.ap.BUPT3_OLD: java.lang.String getConnPath()
+com.ben.ap.BUPT3_OLD: java.lang.String getDisconnPath()
+com.ben.ap.BUPT3_OLD: BUPT3_OLD(java.lang.String,java.lang.String)
+com.ben.ap.BUPT3_OLD: BUPT3_OLD()
+com.ben.ap.BUPT3_OLD: java.util.ArrayList getLoginParam()
+com.ben.ap.BUPT3_OLD: int startDisconnect()
+com.ben.ap.BUPT_OTHER
+com.ben.ap.BUPT_OTHER: java.lang.String getConnPath()
+com.ben.ap.BUPT_OTHER: java.lang.String getDisconnPath()
+com.ben.ap.BUPT_OTHER: BUPT_OTHER(java.lang.String,java.lang.String)
+com.ben.ap.BUPT_OTHER: BUPT_OTHER()
+com.ben.ap.BUPT_OTHER: java.util.ArrayList getLoginParam()
+com.ben.ap.BUPT_OTHER: void setLoginParam(java.util.ArrayList)
+com.ben.ap.BUPT_OTHER: int startDisconnect()
+com.ben.ap.CMCC
+com.ben.ap.CMCC: CMCC()
+com.ben.ap.ChinaUnicom
+com.ben.ap.ChinaUnicom: java.lang.String getConnPath()
+com.ben.ap.ChinaUnicom: java.lang.String getDisconnPath()
+com.ben.ap.ChinaUnicom: ChinaUnicom(java.lang.String,java.lang.String)
+com.ben.ap.ChinaUnicom: ChinaUnicom()
+com.ben.ap.ChinaUnicom: java.util.ArrayList getLoginParam()
+com.ben.ap.ChinaUnicom: java.util.ArrayList getLogoffParam()
+com.ben.ap.ChinaUnicom: int startDisconnect()
+com.ben.exception.CrashHandler
+com.ben.exception.CrashHandler: com.ben.exception.CrashHandler getInstance()
+com.ben.exception.CrashHandler: void init(android.content.Context)
+com.ben.exception.CrashHandler: void uncaughtException(java.lang.Thread,java.lang.Throwable)
+com.ben.exception.CrashHandler: boolean handleException(java.lang.Throwable)
+com.ben.exception.CrashHandler: void collectDeviceInfo(android.content.Context)
+com.ben.exception.CrashHandler$1: void run()
+com.ben.quickwifi.BootCompletedReceiver
+com.ben.quickwifi.BootCompletedReceiver: BootCompletedReceiver()
+com.ben.quickwifi.BootCompletedReceiver: void onReceive(android.content.Context,android.content.Intent)
+com.ben.quickwifi.BuildConfig
+com.ben.quickwifi.BuildConfig: boolean DEBUG
+com.ben.quickwifi.BuildConfig: BuildConfig()
+com.ben.quickwifi.Constant
+com.ben.quickwifi.Constant: int BUPT1
+com.ben.quickwifi.Constant: int BUPT2
+com.ben.quickwifi.Constant: int BUPT3
+com.ben.quickwifi.Constant: int BUPT_OTHER
+com.ben.quickwifi.Constant: java.lang.String BUPT1_PATH
+com.ben.quickwifi.Constant: java.lang.String BUPT2_PATH
+com.ben.quickwifi.Constant: java.lang.String BUPT3_PATH
+com.ben.quickwifi.Constant: java.lang.String BUPT_OTHER_PATH
+com.ben.quickwifi.Constant: Constant()
+com.ben.quickwifi.CrashApplication
+com.ben.quickwifi.CrashApplication: CrashApplication()
+com.ben.quickwifi.CrashApplication: void onCreate()
+com.ben.quickwifi.MainActivity
+com.ben.quickwifi.MainActivity: MainActivity()
+com.ben.quickwifi.MainActivity: void onCreate(android.os.Bundle)
+com.ben.quickwifi.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)
+com.ben.quickwifi.MainActivity: boolean onMenuItemSelected(int,android.view.MenuItem)
+com.ben.quickwifi.MainActivity$1: void onClick(android.view.View)
+com.ben.quickwifi.MainActivity$2: void onClick(android.content.DialogInterface,int)
+com.ben.quickwifi.MainActivity$3: void onClick(android.content.DialogInterface,int)
+com.ben.quickwifi.MainActivity$4: void onClick(android.content.DialogInterface,int)
+com.ben.quickwifi.MainActivity$5: void onClick(android.content.DialogInterface,int)
+com.ben.quickwifi.NetThread
+com.ben.quickwifi.NetThread: NetThread(android.os.Handler,android.content.Context,java.lang.String,java.lang.String,java.lang.String)
+com.ben.quickwifi.NetThread: void run()
+com.ben.quickwifi.NetThreadOff
+com.ben.quickwifi.NetThreadOff: NetThreadOff(android.os.Handler,android.content.Context,java.lang.String)
+com.ben.quickwifi.NetThreadOff: void run()
+com.ben.quickwifi.QuickWifiService
+com.ben.quickwifi.QuickWifiService: QuickWifiService()
+com.ben.quickwifi.QuickWifiService: android.os.IBinder onBind(android.content.Intent)
+com.ben.quickwifi.QuickWifiService: void onCreate()
+com.ben.quickwifi.QuickWifiService: void onDestroy()
+com.ben.quickwifi.QuickWifiService: void onStart(android.content.Intent,int)
+com.ben.quickwifi.QuickWifiService$1: void onClick(android.content.DialogInterface,int)
+com.ben.quickwifi.QuickWifiService$2: void onClick(android.content.DialogInterface,int)
+com.ben.quickwifi.QuickWifiService$3: void onClick(android.content.DialogInterface,int)
+com.ben.quickwifi.QuickWifiService$4: void handleMessage(android.os.Message)
+com.ben.quickwifi.QuickWifiService$5: void run()
+com.ben.quickwifi.QuickWifiService$ListenerTimer: void run()
+com.ben.quickwifi.QuickWifiService$ScreenActionReceiver
+com.ben.quickwifi.QuickWifiService$ScreenActionReceiver: QuickWifiService$ScreenActionReceiver(com.ben.quickwifi.QuickWifiService)
+com.ben.quickwifi.QuickWifiService$ScreenActionReceiver: void onReceive(android.content.Context,android.content.Intent)
+com.ben.quickwifi.QuickWifiService$ScreenActionReceiver: void registerScreenActionReceiver(android.content.Context)
+com.ben.quickwifi.QuickWifiService$ScreenActionReceiver: void unRegisterScreenActionReceiver(android.content.Context)
+com.ben.quickwifi.QuickWifiService$WifiStatusReceiver
+com.ben.quickwifi.QuickWifiService$WifiStatusReceiver: QuickWifiService$WifiStatusReceiver(com.ben.quickwifi.QuickWifiService)
+com.ben.quickwifi.QuickWifiService$WifiStatusReceiver: void onReceive(android.content.Context,android.content.Intent)
+com.ben.quickwifi.R
+com.ben.quickwifi.R: R()
+com.ben.quickwifi.R$attr
+com.ben.quickwifi.R$attr: R$attr()
+com.ben.quickwifi.R$color
+com.ben.quickwifi.R$color: int add_troop_member_bg
+com.ben.quickwifi.R$color: int black
+com.ben.quickwifi.R$color: int button_reply_normal
+com.ben.quickwifi.R$color: int button_reply_pressed
+com.ben.quickwifi.R$color: int button_unselected
+com.ben.quickwifi.R$color: int chat_background
+com.ben.quickwifi.R$color: int chat_history_time_text
+com.ben.quickwifi.R$color: int chat_text
+com.ben.quickwifi.R$color: int chat_time
+com.ben.quickwifi.R$color: int chat_title_name
+com.ben.quickwifi.R$color: int color_bai
+com.ben.quickwifi.R$color: int color_bai_8
+com.ben.quickwifi.R$color: int color_cihei
+com.ben.quickwifi.R$color: int color_divider
+com.ben.quickwifi.R$color: int color_divider_for_contactlist_lower
+com.ben.quickwifi.R$color: int color_divider_for_recentlist_upper
+com.ben.quickwifi.R$color: int color_divider_for_trooplist
+com.ben.quickwifi.R$color: int color_hei
+com.ben.quickwifi.R$color: int color_hei_8
+com.ben.quickwifi.R$color: int color_lan
+com.ben.quickwifi.R$color: int color_qianhui
+com.ben.quickwifi.R$color: int color_shenhui
+com.ben.quickwifi.R$color: int color_zhonghui
+com.ben.quickwifi.R$color: int color_zuiqianhui
+com.ben.quickwifi.R$color: int comment_nick_name
+com.ben.quickwifi.R$color: int contact_category_text
+com.ben.quickwifi.R$color: int contact_category_text_focused
+com.ben.quickwifi.R$color: int doodle_bg
+com.ben.quickwifi.R$color: int emo_item_sel
+com.ben.quickwifi.R$color: int feed_image_background_color
+com.ben.quickwifi.R$color: int feed_item_assist_text_color
+com.ben.quickwifi.R$color: int feed_item_comm_text
+com.ben.quickwifi.R$color: int feed_item_commbutton_text
+com.ben.quickwifi.R$color: int feed_item_comment_background
+com.ben.quickwifi.R$color: int feed_item_content_text_color
+com.ben.quickwifi.R$color: int feed_item_content_text_color_normal
+com.ben.quickwifi.R$color: int feed_item_pressed
+com.ben.quickwifi.R$color: int feed_item_time_text
+com.ben.quickwifi.R$color: int feed_operation_text_color
+com.ben.quickwifi.R$color: int feedcontenttextColor
+com.ben.quickwifi.R$color: int fifteen_trans_black
+com.ben.quickwifi.R$color: int gray
+com.ben.quickwifi.R$color: int lightgray
+com.ben.quickwifi.R$color: int list_contact_prompt_line
+com.ben.quickwifi.R$color: int list_item_focus_for_friendlist
+com.ben.quickwifi.R$color: int list_item_focus_for_troop
+com.ben.quickwifi.R$color: int list_item_line
+com.ben.quickwifi.R$color: int list_item_press
+com.ben.quickwifi.R$color: int myfeed_comment_color
+com.ben.quickwifi.R$color: int myfeed_item_comment_text_color
+com.ben.quickwifi.R$color: int myfeed_item_content_text_color
+com.ben.quickwifi.R$color: int myfeed_item_more_comment_color
+com.ben.quickwifi.R$color: int myfeed_item_praise_text
+com.ben.quickwifi.R$color: int no_auto_reply_normal
+com.ben.quickwifi.R$color: int no_auto_reply_press
+com.ben.quickwifi.R$color: int qq_normal
+com.ben.quickwifi.R$color: int qzone_black
+com.ben.quickwifi.R$color: int qzone_feed_comm_text_un
+com.ben.quickwifi.R$color: int qzone_feed_content
+com.ben.quickwifi.R$color: int qzone_myfeed_rztitle
+com.ben.quickwifi.R$color: int qzone_myfeed_title
+com.ben.quickwifi.R$color: int qzone_picviewer_description
+com.ben.quickwifi.R$color: int qzone_picviewer_loading_bg
+com.ben.quickwifi.R$color: int qzone_picviewer_loading_loaded
+com.ben.quickwifi.R$color: int qzone_picviewer_loading_text
+com.ben.quickwifi.R$color: int qzone_picviewer_loading_toload
+com.ben.quickwifi.R$color: int qzone_shuoshuo_textcount_exceed_color
+com.ben.quickwifi.R$color: int qzone_shuoshuo_textcount_normal_color
+com.ben.quickwifi.R$color: int qzone_transparent
+com.ben.quickwifi.R$color: int qzone_white
+com.ben.quickwifi.R$color: int recent_msg
+com.ben.quickwifi.R$color: int red
+com.ben.quickwifi.R$color: int sc_black
+com.ben.quickwifi.R$color: int sc_chat_contact
+com.ben.quickwifi.R$color: int sc_gray
+com.ben.quickwifi.R$color: int sc_info_btn_press
+com.ben.quickwifi.R$color: int sc_name
+com.ben.quickwifi.R$color: int sc_red
+com.ben.quickwifi.R$color: int sc_transparent
+com.ben.quickwifi.R$color: int sc_transparent_background
+com.ben.quickwifi.R$color: int sc_transparent_black
+com.ben.quickwifi.R$color: int sc_white
+com.ben.quickwifi.R$color: int screenshot_normal
+com.ben.quickwifi.R$color: int screenshot_pressed
+com.ben.quickwifi.R$color: int search_cancel_text
+com.ben.quickwifi.R$color: int search_text
+com.ben.quickwifi.R$color: int semi_transparent
+com.ben.quickwifi.R$color: int semi_transparent_w
+com.ben.quickwifi.R$color: int setting_bg
+com.ben.quickwifi.R$color: int setting_text1
+com.ben.quickwifi.R$color: int setting_text2
+com.ben.quickwifi.R$color: int shorttextColor
+com.ben.quickwifi.R$color: int sqqname
+com.ben.quickwifi.R$color: int tag_textview1
+com.ben.quickwifi.R$color: int tag_textview2
+com.ben.quickwifi.R$color: int tag_textview3
+com.ben.quickwifi.R$color: int text_comment
+com.ben.quickwifi.R$color: int text_drag_refresh_big
+com.ben.quickwifi.R$color: int text_nick_name
+com.ben.quickwifi.R$color: int thirty_transparent_black
+com.ben.quickwifi.R$color: int title_bg
+com.ben.quickwifi.R$color: int traffic_bg
+com.ben.quickwifi.R$color: int traffic_data
+com.ben.quickwifi.R$color: int traffic_txt
+com.ben.quickwifi.R$color: int translucent_background
+com.ben.quickwifi.R$color: int transparent
+com.ben.quickwifi.R$color: int transparentpercent
+com.ben.quickwifi.R$color: int twenty_transparent_black
+com.ben.quickwifi.R$color: int video_bg_color
+com.ben.quickwifi.R$color: int white
+com.ben.quickwifi.R$color: int window_bg
+com.ben.quickwifi.R$color: R$color()
+com.ben.quickwifi.R$drawable
+com.ben.quickwifi.R$drawable: int card_avatar
+com.ben.quickwifi.R$drawable: int chat_send_button_bg
+com.ben.quickwifi.R$drawable: int checkbox_bg_login
+com.ben.quickwifi.R$drawable: int checkbox_selected
+com.ben.quickwifi.R$drawable: int checkbox_selected_press
+com.ben.quickwifi.R$drawable: int checkbox_unselect
+com.ben.quickwifi.R$drawable: int checkbox_unselect_press
+com.ben.quickwifi.R$drawable: int con_selector
+com.ben.quickwifi.R$drawable: int connect
+com.ben.quickwifi.R$drawable: int connect_press
+com.ben.quickwifi.R$drawable: int discon_selector
+com.ben.quickwifi.R$drawable: int disconnect
+com.ben.quickwifi.R$drawable: int disconnect_press
+com.ben.quickwifi.R$drawable: int dora
+com.ben.quickwifi.R$drawable: int dora0
+com.ben.quickwifi.R$drawable: int dora1
+com.ben.quickwifi.R$drawable: int dora1_select
+com.ben.quickwifi.R$drawable: int dora2
+com.ben.quickwifi.R$drawable: int dora3
+com.ben.quickwifi.R$drawable: int dora_select
+com.ben.quickwifi.R$drawable: int ic_action_search
+com.ben.quickwifi.R$drawable: int ic_launcher
+com.ben.quickwifi.R$drawable: int ic_launcher0
+com.ben.quickwifi.R$drawable: int icon_small
+com.ben.quickwifi.R$drawable: int info_bg
+com.ben.quickwifi.R$drawable: int login_bg
+com.ben.quickwifi.R$drawable: int login_button_nor
+com.ben.quickwifi.R$drawable: int login_button_press
+com.ben.quickwifi.R$drawable: int login_input
+com.ben.quickwifi.R$drawable: int login_password_nor
+com.ben.quickwifi.R$drawable: int login_password_press
+com.ben.quickwifi.R$drawable: int login_password_sel
+com.ben.quickwifi.R$drawable: int login_password_sel_press
+com.ben.quickwifi.R$drawable: int login_title
+com.ben.quickwifi.R$drawable: int menu
+com.ben.quickwifi.R$drawable: int resend_normal
+com.ben.quickwifi.R$drawable: int resend_press
+com.ben.quickwifi.R$drawable: int settingback
+com.ben.quickwifi.R$drawable: R$drawable()
+com.ben.quickwifi.R$id
+com.ben.quickwifi.R$id: int about
+com.ben.quickwifi.R$id: int autolockdisconn
+com.ben.quickwifi.R$id: int autologin
+com.ben.quickwifi.R$id: int autoweakdisconn
+com.ben.quickwifi.R$id: int buttonlayout
+com.ben.quickwifi.R$id: int childlayout
+com.ben.quickwifi.R$id: int conbutton
+com.ben.quickwifi.R$id: int disconbutton
+com.ben.quickwifi.R$id: int downloadprog
+com.ben.quickwifi.R$id: int downloadtext
+com.ben.quickwifi.R$id: int editlayout
+com.ben.quickwifi.R$id: int icon
+com.ben.quickwifi.R$id: int input
+com.ben.quickwifi.R$id: int line1
+com.ben.quickwifi.R$id: int line2
+com.ben.quickwifi.R$id: int lockdisconntext
+com.ben.quickwifi.R$id: int loginlayout
+com.ben.quickwifi.R$id: int loginpage
+com.ben.quickwifi.R$id: int menu_settings
+com.ben.quickwifi.R$id: int notable
+com.ben.quickwifi.R$id: int notablebutton
+com.ben.quickwifi.R$id: int parentlayout
+com.ben.quickwifi.R$id: int reset
+com.ben.quickwifi.R$id: int settinglayout
+com.ben.quickwifi.R$id: int submit
+com.ben.quickwifi.R$id: int text
+com.ben.quickwifi.R$id: int time
+com.ben.quickwifi.R$id: int title
+com.ben.quickwifi.R$id: int update
+com.ben.quickwifi.R$id: int update_progress
+com.ben.quickwifi.R$id: int username
+com.ben.quickwifi.R$id: int userpwd
+com.ben.quickwifi.R$id: int weakdisconntext
+com.ben.quickwifi.R$id: R$id()
+com.ben.quickwifi.R$layout
+com.ben.quickwifi.R$layout: int activity_main
+com.ben.quickwifi.R$layout: int loginpage
+com.ben.quickwifi.R$layout: int notify_text
+com.ben.quickwifi.R$layout: int setting
+com.ben.quickwifi.R$layout: int softupdate_progress
+com.ben.quickwifi.R$layout: R$layout()
+com.ben.quickwifi.R$menu
+com.ben.quickwifi.R$menu: int activity_main
+com.ben.quickwifi.R$menu: int main_menu
+com.ben.quickwifi.R$menu: R$menu()
+com.ben.quickwifi.R$string
+com.ben.quickwifi.R$string: int app_name
+com.ben.quickwifi.R$string: int hello_world
+com.ben.quickwifi.R$string: int menu_settings
+com.ben.quickwifi.R$string: int soft_update_cancel
+com.ben.quickwifi.R$string: int soft_update_info
+com.ben.quickwifi.R$string: int soft_update_later
+com.ben.quickwifi.R$string: int soft_update_no
+com.ben.quickwifi.R$string: int soft_update_title
+com.ben.quickwifi.R$string: int soft_update_updatebtn
+com.ben.quickwifi.R$string: int soft_updating
+com.ben.quickwifi.R$string: int title_activity_main
+com.ben.quickwifi.R$string: R$string()
+com.ben.quickwifi.R$style
+com.ben.quickwifi.R$style: int A3_Font
+com.ben.quickwifi.R$style: int A4_Font
+com.ben.quickwifi.R$style: int A5_Font
+com.ben.quickwifi.R$style: int A6_Font
+com.ben.quickwifi.R$style: int AppTheme
+com.ben.quickwifi.R$style: int B3_Font
+com.ben.quickwifi.R$style: int B4_Font
+com.ben.quickwifi.R$style: int NotificationText
+com.ben.quickwifi.R$style: int NotificationTitle
+com.ben.quickwifi.R$style: R$style()
+com.ben.quickwifi.SettingActivity
+com.ben.quickwifi.SettingActivity: SettingActivity()
+com.ben.quickwifi.SettingActivity: boolean onKeyDown(int,android.view.KeyEvent)
+com.ben.quickwifi.WifiConnService
+com.ben.quickwifi.WifiConnService: WifiConnService()
+com.ben.quickwifi.WifiConnService: void onCreate()
+com.ben.quickwifi.WifiConnService: void onDestroy()
+com.ben.quickwifi.WifiConnService: void onStart(android.content.Intent,int)
+com.ben.quickwifi.WifiConnService: android.os.IBinder onBind(android.content.Intent)
+com.ben.quickwifi.WifiConnService$WifiStateReceiver
+com.ben.quickwifi.WifiConnService$WifiStateReceiver: WifiConnService$WifiStateReceiver(com.ben.quickwifi.WifiConnService)
+com.ben.quickwifi.WifiConnService$WifiStateReceiver: void onReceive(android.content.Context,android.content.Intent)
+com.ben.quickwifi.WifiStateReceiver
+com.ben.quickwifi.WifiStateReceiver: WifiStateReceiver()
+com.ben.quickwifi.WifiStateReceiver: void onReceive(android.content.Context,android.content.Intent)
+com.ben.update.ParseXmlService
+com.ben.update.ParseXmlService: ParseXmlService()
+com.ben.update.ParseXmlService: java.util.HashMap parseXml(java.io.InputStream)
+com.ben.update.UpdateManager
+com.ben.update.UpdateManager: UpdateManager(android.content.Context)
+com.ben.update.UpdateManager: void checkUpdate()
+com.ben.update.UpdateManager: java.io.InputStream getInputStreamFromUrl(java.lang.String)
+com.ben.update.UpdateManager$1: void handleMessage(android.os.Message)
+com.ben.update.UpdateManager$2: void run()
+com.ben.update.UpdateManager$3: void onClick(android.content.DialogInterface,int)
+com.ben.update.UpdateManager$4: void onClick(android.content.DialogInterface,int)
+com.ben.update.UpdateManager$downloadApkThread: void run()
+com.ben.util.Method
+com.ben.util.Method: Method()
+com.ben.util.Method: java.lang.String xproc1(java.lang.String)
+com.ben.util.Method: int charCodeAt(int,java.lang.String)
+com.ben.util.NetMethod
+com.ben.util.NetMethod: NetMethod()
+com.ben.util.NetMethod: int testConn()
+com.ben.util.SysCommand
+com.ben.util.SysCommand: SysCommand()
+com.ben.util.SysCommand: int pingHost(java.lang.String)

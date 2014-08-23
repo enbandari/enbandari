@@ -1,0 +1,544 @@
+android.annotation.SuppressLint -> android.annotation.SuppressLint:
+    java.lang.String[] value() -> value
+android.annotation.TargetApi -> android.annotation.TargetApi:
+    int value() -> value
+com.ben.ap.AP -> com.ben.ap.AP:
+    java.lang.String mSsid -> mSsid
+    android.os.Handler mHandler -> mHandler
+    java.util.ArrayList getLoginParam() -> getLoginParam
+    int startDisconnect() -> startDisconnect
+    java.lang.String getConnPath() -> getConnPath
+    int startConnect() -> startConnect
+    org.apache.http.client.HttpClient getHttpClient() -> getHttpClient
+com.ben.ap.BUPT1 -> com.ben.ap.BUPT1:
+    java.util.ArrayList param -> a
+    java.lang.String mConnPath -> b
+    java.lang.String mDisconnPath -> c
+    java.lang.String getConnPath() -> getConnPath
+    java.lang.String getDisconnPath() -> getDisconnPath
+    java.util.ArrayList getLoginParam() -> getLoginParam
+    int startDisconnect() -> startDisconnect
+com.ben.ap.BUPT1_OLD -> com.ben.ap.BUPT1_OLD:
+    java.util.ArrayList mConnParam -> a
+    java.lang.String mConnPath -> b
+    java.lang.String mDisconnPath -> c
+    java.lang.String getConnPath() -> getConnPath
+    java.lang.String getDisconnPath() -> getDisconnPath
+    java.util.ArrayList getLoginParam() -> getLoginParam
+    int startDisconnect() -> startDisconnect
+com.ben.ap.BUPT2 -> com.ben.ap.BUPT2:
+    java.util.ArrayList param -> a
+    java.lang.String mConnPath -> b
+    java.lang.String mDisconnPath -> c
+    java.lang.String getConnPath() -> getConnPath
+    java.lang.String getDisconnPath() -> getDisconnPath
+    java.util.ArrayList getLoginParam() -> getLoginParam
+    int startDisconnect() -> startDisconnect
+com.ben.ap.BUPT2_OLD -> com.ben.ap.BUPT2_OLD:
+    java.util.ArrayList mConnParam -> a
+    java.util.ArrayList mDisconnParam -> b
+    java.lang.String mConnPath -> c
+    java.lang.String mDisconnPath -> d
+    java.lang.String getConnPath() -> getConnPath
+    java.lang.String getDisconnPath() -> getDisconnPath
+    java.util.ArrayList getLoginParam() -> getLoginParam
+    java.util.ArrayList getLogoffParam() -> getLogoffParam
+    int startDisconnect() -> startDisconnect
+com.ben.ap.BUPT3 -> com.ben.ap.BUPT3:
+    java.util.ArrayList param -> a
+    java.lang.String mConnPath -> b
+    java.lang.String mDisconnPath -> c
+    java.lang.String getConnPath() -> getConnPath
+    java.lang.String getDisconnPath() -> getDisconnPath
+    java.util.ArrayList getLoginParam() -> getLoginParam
+    int startDisconnect() -> startDisconnect
+com.ben.ap.BUPT3_OLD -> com.ben.ap.BUPT3_OLD:
+    java.util.ArrayList param -> a
+    java.lang.String mConnPath -> b
+    java.lang.String mDisconnPath -> c
+    java.lang.String getConnPath() -> getConnPath
+    java.lang.String getDisconnPath() -> getDisconnPath
+    java.util.ArrayList getLoginParam() -> getLoginParam
+    int startDisconnect() -> startDisconnect
+com.ben.ap.BUPT_OTHER -> com.ben.ap.BUPT_OTHER:
+    java.util.ArrayList param -> a
+    java.lang.String mConnPath -> b
+    java.lang.String mDisconnPath -> c
+    java.lang.String getConnPath() -> getConnPath
+    java.lang.String getDisconnPath() -> getDisconnPath
+    java.util.ArrayList getLoginParam() -> getLoginParam
+    void setLoginParam(java.util.ArrayList) -> setLoginParam
+    int startDisconnect() -> startDisconnect
+com.ben.ap.CMCC -> com.ben.ap.CMCC:
+com.ben.ap.ChinaUnicom -> com.ben.ap.ChinaUnicom:
+    java.util.ArrayList mConnParam -> a
+    java.util.ArrayList mDisconnParam -> b
+    java.lang.String mConnPath -> c
+    java.lang.String mDisconnPath -> d
+    java.lang.String getConnPath() -> getConnPath
+    java.lang.String getDisconnPath() -> getDisconnPath
+    java.util.ArrayList getLoginParam() -> getLoginParam
+    java.util.ArrayList getLogoffParam() -> getLogoffParam
+    int startDisconnect() -> startDisconnect
+com.ben.exception.CrashHandler -> com.ben.exception.CrashHandler:
+    java.lang.Thread$UncaughtExceptionHandler mDefaultHandler -> a
+    com.ben.exception.CrashHandler INSTANCE -> b
+    android.content.Context mContext -> c
+    java.util.Map info -> d
+    java.text.SimpleDateFormat format -> e
+    com.ben.exception.CrashHandler getInstance() -> getInstance
+    void init(android.content.Context) -> init
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+    boolean handleException(java.lang.Throwable) -> handleException
+    void collectDeviceInfo(android.content.Context) -> collectDeviceInfo
+    java.lang.String saveCrashInfo2File(java.lang.Throwable) -> a
+    android.content.Context access$0(com.ben.exception.CrashHandler) -> a
+com.ben.exception.CrashHandler$1 -> com.ben.exception.a:
+    com.ben.exception.CrashHandler this$0 -> a
+    void run() -> run
+com.ben.quickwifi.BootCompletedReceiver -> com.ben.quickwifi.BootCompletedReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.ben.quickwifi.BuildConfig -> com.ben.quickwifi.BuildConfig:
+    boolean DEBUG -> DEBUG
+com.ben.quickwifi.Constant -> com.ben.quickwifi.Constant:
+    int BUPT1 -> BUPT1
+    int BUPT2 -> BUPT2
+    int BUPT3 -> BUPT3
+    int BUPT_OTHER -> BUPT_OTHER
+    java.lang.String BUPT1_PATH -> BUPT1_PATH
+    java.lang.String BUPT2_PATH -> BUPT2_PATH
+    java.lang.String BUPT3_PATH -> BUPT3_PATH
+    java.lang.String BUPT_OTHER_PATH -> BUPT_OTHER_PATH
+com.ben.quickwifi.CrashApplication -> com.ben.quickwifi.CrashApplication:
+    void onCreate() -> onCreate
+com.ben.quickwifi.MainActivity -> com.ben.quickwifi.MainActivity:
+    android.widget.EditText mUserName -> a
+    android.widget.EditText mUserPwd -> b
+    android.widget.Button mSubmit -> c
+    android.widget.ToggleButton mLockDisconn -> d
+    android.widget.ToggleButton mWeakDisconn -> e
+    android.widget.ToggleButton mNotable -> f
+    android.widget.ToggleButton mAutologin -> g
+    android.content.SharedPreferences sp -> h
+    android.net.wifi.WifiManager wm -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    void popAboutDialog() -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onMenuItemSelected(int,android.view.MenuItem) -> onMenuItemSelected
+    android.content.SharedPreferences access$0(com.ben.quickwifi.MainActivity) -> a
+    android.widget.EditText access$1(com.ben.quickwifi.MainActivity) -> b
+    android.widget.EditText access$2(com.ben.quickwifi.MainActivity) -> c
+    android.widget.ToggleButton access$3(com.ben.quickwifi.MainActivity) -> d
+    android.widget.ToggleButton access$4(com.ben.quickwifi.MainActivity) -> e
+    android.widget.ToggleButton access$5(com.ben.quickwifi.MainActivity) -> f
+    android.widget.ToggleButton access$6(com.ben.quickwifi.MainActivity) -> g
+    android.net.wifi.WifiManager access$7(com.ben.quickwifi.MainActivity) -> h
+com.ben.quickwifi.MainActivity$1 -> com.ben.quickwifi.a:
+    com.ben.quickwifi.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.ben.quickwifi.MainActivity$2 -> com.ben.quickwifi.b:
+    com.ben.quickwifi.MainActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.ben.quickwifi.MainActivity$3 -> com.ben.quickwifi.c:
+    com.ben.quickwifi.MainActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.ben.quickwifi.MainActivity$4 -> com.ben.quickwifi.d:
+    com.ben.quickwifi.MainActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.ben.quickwifi.MainActivity$5 -> com.ben.quickwifi.e:
+    com.ben.quickwifi.MainActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.ben.quickwifi.NetThread -> com.ben.quickwifi.NetThread:
+    java.lang.String apName -> a
+    java.lang.String mUserName -> b
+    java.lang.String mUserPwd -> c
+    com.ben.ap.AP ap -> d
+    android.content.Context mContext -> e
+    android.os.Handler mHandler -> f
+    void run() -> run
+com.ben.quickwifi.NetThreadOff -> com.ben.quickwifi.NetThreadOff:
+    java.lang.String apName -> a
+    com.ben.ap.AP ap -> b
+    android.content.Context mContext -> c
+    android.os.Handler mHandler -> d
+    void run() -> run
+com.ben.quickwifi.QuickWifiService -> com.ben.quickwifi.QuickWifiService:
+    com.ben.quickwifi.QuickWifiService$WifiStatusReceiver mWifiStatusReceiver -> a
+    android.net.wifi.WifiManager wm -> b
+    android.net.wifi.WifiInfo wi -> c
+    java.lang.String apName -> d
+    java.lang.String mUserName -> e
+    java.lang.String mUserPwd -> f
+    android.os.Handler mHandler -> g
+    android.content.SharedPreferences sp -> h
+    int cnt -> i
+    java.util.Timer timer -> j
+    com.ben.quickwifi.QuickWifiService$ScreenActionReceiver mScreenStateReceiver -> k
+    android.os.Vibrator vibrator -> l
+    boolean mAutologin -> m
+    boolean mLockDisconn -> n
+    boolean mWeakDisconn -> o
+    boolean mNotable -> p
+    boolean mScreenState -> q
+    boolean mWifiState -> r
+    boolean connFlag -> s
+    android.app.NotificationManager noteMan -> t
+    android.app.Notification wifiConnNote -> u
+    com.ben.quickwifi.NetThread netThreadLogin -> v
+    com.ben.quickwifi.NetThreadOff netThreadLogoff -> w
+    int[] $SWITCH_TABLE$android$net$NetworkInfo$DetailedState -> x
+    int[] $SWITCH_TABLE$android$net$wifi$SupplicantState -> y
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void stopTimer() -> a
+    void setNote(java.lang.String,java.lang.String,java.lang.String) -> a
+    void cancelNote() -> b
+    void onCreate() -> onCreate
+    void onDestroy() -> onDestroy
+    void onStart(android.content.Intent,int) -> onStart
+    void startConnect() -> c
+    android.net.wifi.WifiManager access$0(com.ben.quickwifi.QuickWifiService) -> a
+    void access$1(com.ben.quickwifi.QuickWifiService,android.net.wifi.WifiInfo) -> a
+    android.net.wifi.WifiInfo access$2(com.ben.quickwifi.QuickWifiService) -> b
+    boolean access$3(com.ben.quickwifi.QuickWifiService) -> c
+    void access$4(com.ben.quickwifi.QuickWifiService) -> d
+    void access$5(com.ben.quickwifi.QuickWifiService,boolean) -> a
+    void access$6(com.ben.quickwifi.QuickWifiService) -> e
+    void access$7(com.ben.quickwifi.QuickWifiService,android.net.NetworkInfo$DetailedState) -> a
+    void access$8(com.ben.quickwifi.QuickWifiService,android.net.wifi.SupplicantState) -> a
+    void access$9(com.ben.quickwifi.QuickWifiService) -> f
+    void access$10(com.ben.quickwifi.QuickWifiService) -> g
+    void access$11(com.ben.quickwifi.QuickWifiService,boolean) -> b
+    boolean access$12(com.ben.quickwifi.QuickWifiService) -> h
+    java.lang.String access$13(com.ben.quickwifi.QuickWifiService) -> i
+    void access$14(com.ben.quickwifi.QuickWifiService,java.lang.String,java.lang.String,java.lang.String) -> a
+    boolean access$15(com.ben.quickwifi.QuickWifiService) -> j
+    android.app.Notification access$16(com.ben.quickwifi.QuickWifiService) -> k
+    android.os.Vibrator access$17(com.ben.quickwifi.QuickWifiService) -> l
+    void access$18(com.ben.quickwifi.QuickWifiService) -> m
+    int access$19(com.ben.quickwifi.QuickWifiService) -> n
+    void access$20(com.ben.quickwifi.QuickWifiService,int) -> a
+    void access$21(com.ben.quickwifi.QuickWifiService) -> o
+    android.os.Handler access$22(com.ben.quickwifi.QuickWifiService) -> p
+    int[] $SWITCH_TABLE$android$net$NetworkInfo$DetailedState() -> d
+    int[] $SWITCH_TABLE$android$net$wifi$SupplicantState() -> e
+com.ben.quickwifi.QuickWifiService$1 -> com.ben.quickwifi.f:
+    com.ben.quickwifi.QuickWifiService this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.ben.quickwifi.QuickWifiService$2 -> com.ben.quickwifi.g:
+    com.ben.quickwifi.QuickWifiService this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.ben.quickwifi.QuickWifiService$3 -> com.ben.quickwifi.h:
+    com.ben.quickwifi.QuickWifiService this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.ben.quickwifi.QuickWifiService$4 -> com.ben.quickwifi.i:
+    com.ben.quickwifi.QuickWifiService this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.ben.quickwifi.QuickWifiService$5 -> com.ben.quickwifi.j:
+    com.ben.quickwifi.QuickWifiService this$0 -> a
+    void run() -> run
+com.ben.quickwifi.QuickWifiService$ListenerTimer -> com.ben.quickwifi.k:
+    com.ben.quickwifi.QuickWifiService this$0 -> a
+    void run() -> run
+com.ben.quickwifi.QuickWifiService$ScreenActionReceiver -> com.ben.quickwifi.QuickWifiService$ScreenActionReceiver:
+    java.lang.String TAG -> b
+    boolean isRegisterReceiver -> c
+    com.ben.quickwifi.QuickWifiService this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void registerScreenActionReceiver(android.content.Context) -> registerScreenActionReceiver
+    void unRegisterScreenActionReceiver(android.content.Context) -> unRegisterScreenActionReceiver
+com.ben.quickwifi.QuickWifiService$WifiStatusReceiver -> com.ben.quickwifi.QuickWifiService$WifiStatusReceiver:
+    com.ben.quickwifi.QuickWifiService this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.ben.quickwifi.R -> com.ben.quickwifi.R:
+com.ben.quickwifi.R$attr -> com.ben.quickwifi.R$attr:
+com.ben.quickwifi.R$color -> com.ben.quickwifi.R$color:
+    int add_troop_member_bg -> add_troop_member_bg
+    int black -> black
+    int button_reply_normal -> button_reply_normal
+    int button_reply_pressed -> button_reply_pressed
+    int button_unselected -> button_unselected
+    int chat_background -> chat_background
+    int chat_history_time_text -> chat_history_time_text
+    int chat_text -> chat_text
+    int chat_time -> chat_time
+    int chat_title_name -> chat_title_name
+    int color_bai -> color_bai
+    int color_bai_8 -> color_bai_8
+    int color_cihei -> color_cihei
+    int color_divider -> color_divider
+    int color_divider_for_contactlist_lower -> color_divider_for_contactlist_lower
+    int color_divider_for_recentlist_upper -> color_divider_for_recentlist_upper
+    int color_divider_for_trooplist -> color_divider_for_trooplist
+    int color_hei -> color_hei
+    int color_hei_8 -> color_hei_8
+    int color_lan -> color_lan
+    int color_qianhui -> color_qianhui
+    int color_shenhui -> color_shenhui
+    int color_zhonghui -> color_zhonghui
+    int color_zuiqianhui -> color_zuiqianhui
+    int comment_nick_name -> comment_nick_name
+    int contact_category_text -> contact_category_text
+    int contact_category_text_focused -> contact_category_text_focused
+    int doodle_bg -> doodle_bg
+    int emo_item_sel -> emo_item_sel
+    int feed_image_background_color -> feed_image_background_color
+    int feed_item_assist_text_color -> feed_item_assist_text_color
+    int feed_item_comm_text -> feed_item_comm_text
+    int feed_item_commbutton_text -> feed_item_commbutton_text
+    int feed_item_comment_background -> feed_item_comment_background
+    int feed_item_content_text_color -> feed_item_content_text_color
+    int feed_item_content_text_color_normal -> feed_item_content_text_color_normal
+    int feed_item_pressed -> feed_item_pressed
+    int feed_item_time_text -> feed_item_time_text
+    int feed_operation_text_color -> feed_operation_text_color
+    int feedcontenttextColor -> feedcontenttextColor
+    int fifteen_trans_black -> fifteen_trans_black
+    int gray -> gray
+    int lightgray -> lightgray
+    int list_contact_prompt_line -> list_contact_prompt_line
+    int list_item_focus_for_friendlist -> list_item_focus_for_friendlist
+    int list_item_focus_for_troop -> list_item_focus_for_troop
+    int list_item_line -> list_item_line
+    int list_item_press -> list_item_press
+    int myfeed_comment_color -> myfeed_comment_color
+    int myfeed_item_comment_text_color -> myfeed_item_comment_text_color
+    int myfeed_item_content_text_color -> myfeed_item_content_text_color
+    int myfeed_item_more_comment_color -> myfeed_item_more_comment_color
+    int myfeed_item_praise_text -> myfeed_item_praise_text
+    int no_auto_reply_normal -> no_auto_reply_normal
+    int no_auto_reply_press -> no_auto_reply_press
+    int qq_normal -> qq_normal
+    int qzone_black -> qzone_black
+    int qzone_feed_comm_text_un -> qzone_feed_comm_text_un
+    int qzone_feed_content -> qzone_feed_content
+    int qzone_myfeed_rztitle -> qzone_myfeed_rztitle
+    int qzone_myfeed_title -> qzone_myfeed_title
+    int qzone_picviewer_description -> qzone_picviewer_description
+    int qzone_picviewer_loading_bg -> qzone_picviewer_loading_bg
+    int qzone_picviewer_loading_loaded -> qzone_picviewer_loading_loaded
+    int qzone_picviewer_loading_text -> qzone_picviewer_loading_text
+    int qzone_picviewer_loading_toload -> qzone_picviewer_loading_toload
+    int qzone_shuoshuo_textcount_exceed_color -> qzone_shuoshuo_textcount_exceed_color
+    int qzone_shuoshuo_textcount_normal_color -> qzone_shuoshuo_textcount_normal_color
+    int qzone_transparent -> qzone_transparent
+    int qzone_white -> qzone_white
+    int recent_msg -> recent_msg
+    int red -> red
+    int sc_black -> sc_black
+    int sc_chat_contact -> sc_chat_contact
+    int sc_gray -> sc_gray
+    int sc_info_btn_press -> sc_info_btn_press
+    int sc_name -> sc_name
+    int sc_red -> sc_red
+    int sc_transparent -> sc_transparent
+    int sc_transparent_background -> sc_transparent_background
+    int sc_transparent_black -> sc_transparent_black
+    int sc_white -> sc_white
+    int screenshot_normal -> screenshot_normal
+    int screenshot_pressed -> screenshot_pressed
+    int search_cancel_text -> search_cancel_text
+    int search_text -> search_text
+    int semi_transparent -> semi_transparent
+    int semi_transparent_w -> semi_transparent_w
+    int setting_bg -> setting_bg
+    int setting_text1 -> setting_text1
+    int setting_text2 -> setting_text2
+    int shorttextColor -> shorttextColor
+    int sqqname -> sqqname
+    int tag_textview1 -> tag_textview1
+    int tag_textview2 -> tag_textview2
+    int tag_textview3 -> tag_textview3
+    int text_comment -> text_comment
+    int text_drag_refresh_big -> text_drag_refresh_big
+    int text_nick_name -> text_nick_name
+    int thirty_transparent_black -> thirty_transparent_black
+    int title_bg -> title_bg
+    int traffic_bg -> traffic_bg
+    int traffic_data -> traffic_data
+    int traffic_txt -> traffic_txt
+    int translucent_background -> translucent_background
+    int transparent -> transparent
+    int transparentpercent -> transparentpercent
+    int twenty_transparent_black -> twenty_transparent_black
+    int video_bg_color -> video_bg_color
+    int white -> white
+    int window_bg -> window_bg
+com.ben.quickwifi.R$drawable -> com.ben.quickwifi.R$drawable:
+    int card_avatar -> card_avatar
+    int chat_send_button_bg -> chat_send_button_bg
+    int checkbox_bg_login -> checkbox_bg_login
+    int checkbox_selected -> checkbox_selected
+    int checkbox_selected_press -> checkbox_selected_press
+    int checkbox_unselect -> checkbox_unselect
+    int checkbox_unselect_press -> checkbox_unselect_press
+    int con_selector -> con_selector
+    int connect -> connect
+    int connect_press -> connect_press
+    int discon_selector -> discon_selector
+    int disconnect -> disconnect
+    int disconnect_press -> disconnect_press
+    int dora -> dora
+    int dora0 -> dora0
+    int dora1 -> dora1
+    int dora1_select -> dora1_select
+    int dora2 -> dora2
+    int dora3 -> dora3
+    int dora_select -> dora_select
+    int ic_action_search -> ic_action_search
+    int ic_launcher -> ic_launcher
+    int ic_launcher0 -> ic_launcher0
+    int icon_small -> icon_small
+    int info_bg -> info_bg
+    int login_bg -> login_bg
+    int login_button_nor -> login_button_nor
+    int login_button_press -> login_button_press
+    int login_input -> login_input
+    int login_password_nor -> login_password_nor
+    int login_password_press -> login_password_press
+    int login_password_sel -> login_password_sel
+    int login_password_sel_press -> login_password_sel_press
+    int login_title -> login_title
+    int menu -> menu
+    int resend_normal -> resend_normal
+    int resend_press -> resend_press
+    int settingback -> settingback
+com.ben.quickwifi.R$id -> com.ben.quickwifi.R$id:
+    int about -> about
+    int autolockdisconn -> autolockdisconn
+    int autologin -> autologin
+    int autoweakdisconn -> autoweakdisconn
+    int buttonlayout -> buttonlayout
+    int childlayout -> childlayout
+    int conbutton -> conbutton
+    int disconbutton -> disconbutton
+    int downloadprog -> downloadprog
+    int downloadtext -> downloadtext
+    int editlayout -> editlayout
+    int icon -> icon
+    int input -> input
+    int line1 -> line1
+    int line2 -> line2
+    int lockdisconntext -> lockdisconntext
+    int loginlayout -> loginlayout
+    int loginpage -> loginpage
+    int menu_settings -> menu_settings
+    int notable -> notable
+    int notablebutton -> notablebutton
+    int parentlayout -> parentlayout
+    int reset -> reset
+    int settinglayout -> settinglayout
+    int submit -> submit
+    int text -> text
+    int time -> time
+    int title -> title
+    int update -> update
+    int update_progress -> update_progress
+    int username -> username
+    int userpwd -> userpwd
+    int weakdisconntext -> weakdisconntext
+com.ben.quickwifi.R$layout -> com.ben.quickwifi.R$layout:
+    int activity_main -> activity_main
+    int loginpage -> loginpage
+    int notify_text -> notify_text
+    int setting -> setting
+    int softupdate_progress -> softupdate_progress
+com.ben.quickwifi.R$menu -> com.ben.quickwifi.R$menu:
+    int activity_main -> activity_main
+    int main_menu -> main_menu
+com.ben.quickwifi.R$string -> com.ben.quickwifi.R$string:
+    int app_name -> app_name
+    int hello_world -> hello_world
+    int menu_settings -> menu_settings
+    int soft_update_cancel -> soft_update_cancel
+    int soft_update_info -> soft_update_info
+    int soft_update_later -> soft_update_later
+    int soft_update_no -> soft_update_no
+    int soft_update_title -> soft_update_title
+    int soft_update_updatebtn -> soft_update_updatebtn
+    int soft_updating -> soft_updating
+    int title_activity_main -> title_activity_main
+com.ben.quickwifi.R$style -> com.ben.quickwifi.R$style:
+    int A3_Font -> A3_Font
+    int A4_Font -> A4_Font
+    int A5_Font -> A5_Font
+    int A6_Font -> A6_Font
+    int AppTheme -> AppTheme
+    int B3_Font -> B3_Font
+    int B4_Font -> B4_Font
+    int NotificationText -> NotificationText
+    int NotificationTitle -> NotificationTitle
+com.ben.quickwifi.SettingActivity -> com.ben.quickwifi.SettingActivity:
+    android.widget.ToggleButton mLockDisconn -> a
+    android.widget.ToggleButton mWeakDisconn -> b
+    android.widget.ToggleButton mNotable -> c
+    android.content.SharedPreferences sp -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void onDestroy() -> onDestroy
+    void onStart() -> onStart
+com.ben.quickwifi.WifiConnService -> com.ben.quickwifi.WifiConnService:
+    com.ben.quickwifi.WifiConnService$WifiStateReceiver mWifiStateReceiver -> a
+    android.content.Intent itQuickWifi -> b
+    void onCreate() -> onCreate
+    void onDestroy() -> onDestroy
+    void onStart(android.content.Intent,int) -> onStart
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    android.content.Intent access$0(com.ben.quickwifi.WifiConnService) -> a
+com.ben.quickwifi.WifiConnService$WifiStateReceiver -> com.ben.quickwifi.WifiConnService$WifiStateReceiver:
+    com.ben.quickwifi.WifiConnService this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.ben.quickwifi.WifiStateReceiver -> com.ben.quickwifi.WifiStateReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.ben.update.ParseXmlService -> com.ben.update.ParseXmlService:
+    java.util.HashMap parseXml(java.io.InputStream) -> parseXml
+com.ben.update.UpdateManager -> com.ben.update.UpdateManager:
+    java.net.HttpURLConnection urlConn -> b
+    java.util.HashMap mHashMap -> a
+    java.lang.String mSavePath -> c
+    int progress -> d
+    boolean cancelUpdate -> e
+    android.content.Context mContext -> f
+    android.widget.ProgressBar mProgress -> g
+    android.app.Dialog mDownloadDialog -> h
+    android.widget.TextView mProgresText -> i
+    android.os.Handler mHandler -> j
+    void checkUpdate() -> checkUpdate
+    java.io.InputStream getInputStreamFromUrl(java.lang.String) -> getInputStreamFromUrl
+    boolean isUpdate() -> a
+    int getVersionCode(android.content.Context) -> a
+    android.widget.ProgressBar access$0(com.ben.update.UpdateManager) -> a
+    int access$1(com.ben.update.UpdateManager) -> b
+    android.widget.TextView access$2(com.ben.update.UpdateManager) -> c
+    void access$3(com.ben.update.UpdateManager) -> d
+    android.content.Context access$4(com.ben.update.UpdateManager) -> e
+    void access$5(com.ben.update.UpdateManager) -> f
+    void access$6(com.ben.update.UpdateManager,java.lang.String) -> a
+    java.lang.String access$7(com.ben.update.UpdateManager) -> g
+    void access$8(com.ben.update.UpdateManager,int) -> a
+    android.os.Handler access$9(com.ben.update.UpdateManager) -> h
+    boolean access$10(com.ben.update.UpdateManager) -> i
+    android.app.Dialog access$11(com.ben.update.UpdateManager) -> j
+    boolean access$12(com.ben.update.UpdateManager) -> k
+    void access$13(com.ben.update.UpdateManager) -> l
+com.ben.update.UpdateManager$1 -> com.ben.update.a:
+    com.ben.update.UpdateManager this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.ben.update.UpdateManager$2 -> com.ben.update.b:
+    com.ben.update.UpdateManager this$0 -> a
+    void run() -> run
+com.ben.update.UpdateManager$3 -> com.ben.update.c:
+    com.ben.update.UpdateManager this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.ben.update.UpdateManager$4 -> com.ben.update.d:
+    com.ben.update.UpdateManager this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.ben.update.UpdateManager$downloadApkThread -> com.ben.update.e:
+    com.ben.update.UpdateManager this$0 -> a
+    void run() -> run
+com.ben.util.Method -> com.ben.util.Method:
+    java.lang.String xproc1(java.lang.String) -> xproc1
+    int charCodeAt(int,java.lang.String) -> charCodeAt
+com.ben.util.NetMethod -> com.ben.util.NetMethod:
+    int testConn() -> testConn
+com.ben.util.SysCommand -> com.ben.util.SysCommand:
+    int pingHost(java.lang.String) -> pingHost

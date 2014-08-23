@@ -1,0 +1,18 @@
+# view AndroidManifest.xml #generated:48
+-keep class com.ben.quickwifi.BootCompletedReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.ben.quickwifi.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.ben.quickwifi.QuickWifiService { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.ben.quickwifi.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.ben.quickwifi.WifiConnService { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.ben.quickwifi.WifiStateReceiver { <init>(...); }
+

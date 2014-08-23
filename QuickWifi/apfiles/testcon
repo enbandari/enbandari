@@ -1,0 +1,27 @@
+	public int startConnect() {
+		HttpPost httpRequest = new HttpPost(this.getConnPath());
+		System.out.println("尝试连接！");
+
+		try {
+			httpRequest.setEntity(new UrlEncodedFormEntity(this.getLoginParam(), HTTP.UTF_8));
+			HttpResponse httpResponse;
+			httpResponse = new DefaultHttpClient().execute(httpRequest);
+
+			if (httpResponse.getStatusLine().getStatusCode() == 200) {
+				/* 取出响应字符串 */
+				String strResult;
+				strResult = EntityUtils.toString(httpResponse.getEntity());
+				byte[] b = strResult.getBytes();
+				strResult = new String(b, "GBK");
+				System.out.println("连接完毕");
+				System.out.println(strResult);
+			} else {
+				System.out.println(httpResponse.getStatusLine().getStatusCode());
+			}
+
+			return this.testConn();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return 0;
+	}

@@ -1,0 +1,9 @@
+com.ben.ap.AP:
+    private static final int REQUEST_TIMEOUT
+    private static final int SO_TIMEOUT
+com.ben.exception.CrashHandler:
+    private static final java.lang.String TAG
+com.ben.update.UpdateManager:
+    private static final java.lang.String urlStr
+    private static final int DOWNLOAD
+    private static final int DOWNLOAD_FINISH

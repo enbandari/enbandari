@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/about"
+        android:title="关于">
+    </item>
+    <item
+        android:id="@+id/update"
+        android:title="检查更新">
+    </item>
+
+</menu>

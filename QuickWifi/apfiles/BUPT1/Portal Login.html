@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK" >
+<title>Portal Login</title>
+
+<link href="Portal Login_files/styles.css" rel="stylesheet" media="screen" type="text/css">
+<style type="text/css">
+body {
+	background: #000 url('/auth/default2/background.jpg') top left no-repeat;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+#user-agreement {
+    font-family: verdana, arial, hevetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    padding:10px;
+    margin:10px;
+    width: 550px;
+    border:1px dotted gray;
+    background: gray;
+}
+#user-agreement table, tr, td, input {
+    font-family: verdana, arial, hevetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+}
+#logins input {
+    font-family: verdana, arial, hevetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+}
+</style>
+<script language="javascript" type="text/javascript">
+function cp_ua() {
+    this.div_ids = new Array('user-agreement', 'logins');
+    this.cp_a_type = null;
+    this.init = function(cp_a_type) {
+        if(this.cp_a_type == null)
+            this.cp_a_type = cp_a_type;
+    }
+    this.show_forms = function(isUa, isDisabled) {
+        var __user_agreement = (!isUa) ? true : false;
+        var __cmp_str = (__user_agreement) ? this.div_ids[0] : this.div_ids[1];
+        var vm=null, vmid=null;
+        for(var i=0; i<this.div_ids.length; i++) {
+            var div_id = this.div_ids[i];
+            var div_ref = document.getElementById(div_id);
+            var disp_str = (div_id.match(__cmp_str)) ? 'block' : 'none';
+            if(div_ref) {
+                div_ref.style.display = disp_str;
+            }
+        }
+        if(isUa && (vm = document.getElementsByName(this.cp_a_type)[0]) != null) {
+            this.ed_fields(isDisabled);
+            vm.focus();
+        } 
+    }
+    this.ed_fields = function(flag) {   /* Enable/Disable fields */
+        var inputs = document.getElementsByTagName('input');
+        for(var j=0; j<inputs.length; j++) {
+            var vm = inputs[j];
+            if(vm) {
+                vm.disabled = flag;
+            }
+        }
+        return;
+    }
+    this.only_aup = function(requested_url) {
+        var xform = document.getElementById("only_aup_form");
+        var url = document.getElementsByName("requested_url")[0];
+        url.value = requested_url;
+        xform.submit();
+        return;
+    }
+}
+var CpUa = new cp_ua();
+
+function showPolicy() {
+	win = window.open("/upload/custom/bupt-redian/acceptableusepolicy.html", "policy", "height=550,width=550,scrollbars=1");
+}
+</script>
+</head>
+
+<body onload="document.getElementById('user').focus();">
+<div id="main">
+    <div id="user-agreement" style="display: none">
+        <table width="100%"><tbody>
+          <tr><td>
+            <h3>User Agreement Policy</h3>
+          </td></tr>
+          <tr><td>
+            
+          </td></tr>
+          <tr><td align="center"><br>
+        <input type="button" value="Accept" onclick="">
+          </td></tr>
+        </tbody></table>
+    </div>
+
+	<div id="logins">
+		<div id="errorbox" style="display: none">
+		 </div>
+		<div id="registered" style="">
+			<h1 id="registeredhdr" class="swap"><span>REGISTERED USER</span></h1>
+			<form action="http://10.8.0.1/cgi-bin/login" id="regform" method="post" autocomplete="off" title="Form used by registered users to login">
+
+			<div id="usernamebox">
+			<label for="user" accesskey="u">USERNAME</label>
+			<input type="text" name="user" id="user" size="25" class="text" accesskey="u">
+			</div>
+			
+			<div id="passwordbox">
+			<label for="password" accesskey="p">PASSWORD</label>
+			<input id="password" name="password" type="password" size="25" class="text" accesskey="p">
+			</div>
+
+			<div id="fqdnbox" style="display: none"></div>
+
+			<input type="hidden" name="cmd" value="authenticate">
+			<input type="submit" name="Login" value="Log In" class="button">
+			<p>Logging in as a registered user indicates you have 	read and accepted the <a href="javascript:void(0)" onclick="showPolicy();">Acceptable Use Policy</a>.</p>
+			
+			</form>
+		</div>
+
+		<div style="display: none">
+			<form action="http://10.8.0.1/cgi-bin/login" id="only_aup_form" method="post" title="">
+			<input type="hidden" name="accept_aup" value="accept_aup">
+			<input type="hidden" name="requested_url" value="">
+			</form>
+		</div>
+
+		<div id="guest" style="display: none">
+			<h1 id="guesthdr" class="swap"><span>GUEST USER</span></h1>
+			<form action="http://10.8.0.1/cgi-bin/login" id="guestform" emweb_name="captive_portal_guest" method="post" title="Form used by guest users to login">
+
+			<div id="emailbox">
+			<label for="email" accesskey="e">EMAIL</label>
+			<input id="email" name="email" type="text" size="25" class="text" accesskey="e">
+			</div>
+
+			<input type="hidden" name="cmd" value="authenticate">
+			<input type="submit" name="Login" value="Log In" class="button">
+			
+			</form>
+		</div>
+		<div id="logo"><img src="Portal Login_files/buptwlogo.gif"></div>
+		<div id="instructions" style="">
+			<div id="instructionstext">无线网络认证用户名密码与出校网关相同:
+登录用户名为学号/工作证号(见&#65533;北邮通&#65533;校园卡卡面)，密码初始为身份证后六位，如果含有字母请用&#65533;0&#65533;代替.</div>
+			<div id="instructionsbg"></div>
+		</div>
+	</div>
+</div>
+
+
+
+
+</body></html>

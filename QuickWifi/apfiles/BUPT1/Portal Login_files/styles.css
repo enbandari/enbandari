@@ -1,0 +1,129 @@
+body {
+	background: #9d3f33 url(background.jpg) top left no-repeat;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	padding: 0;
+	margin: 10px;
+}
+
+a:link, a:visited {
+	color: #000;
+	text-decoration: underline;
+}
+
+#logo {
+	position: absolute;
+	left: 35px;
+	top: 60px;
+}
+
+#logins {
+	padding: 0;
+	margin-top: 155px;
+	margin-left: 35px;
+}
+
+#errorbox {
+	font-weight: bold;
+	color: #fff;
+	border: 1px solid #c00;
+	width: 190px;
+	background-color: #c00;
+	margin-bottom: 10px;
+	padding: 2px;
+}
+
+#instructions {
+	position: absolute;
+	left: 260px;
+	top: 155px;
+	color: #fff;
+	width: 350px;
+}
+
+#instructionsbg {
+	background-color: #67322a;
+	-moz-opacity:0.5;	/* for mozilla */
+	filter: alpha(style=0, opacity=50);	/* for IE */
+	opacity: 0.5;		/* for safari */
+	width: 352px;
+	height: 302px;
+	position: absolute;
+	padding: 6px;
+}
+
+#instructionstext {
+	z-index: 100;
+	color: #fff;
+	padding: 6px;
+	position: absolute;
+	border: 1px solid #333;
+	height: 300px;
+	width: 350px;
+}
+
+#registered {
+	border: 1px solid #000;
+	width: 194px;
+	color: #000;
+	font-weight: bold;
+	padding: 0;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+
+#passwordbox {
+	margin-top: 5px;
+}
+
+#guest {
+	background-color: #fff;
+	border: 1px solid #000;
+	width: 194px;
+	color: #000;
+	font-weight: bold;
+	padding: 0;
+}
+
+.swap span, .swap u, .swap em {
+	display: none;
+}
+
+h1.swap, h2.swap, h3.swap, h4.swap, h5.swap {
+	background: top left no-repeat;
+	padding: 0;
+	margin: 0;
+	height: 25px;
+}
+
+h1#registeredhdr { background-image: url(registereduser.gif); }
+h1#guesthdr { background-image: url(guestuser.gif); }
+
+#logins input {
+	background-color: #ccc;
+	color: #000;
+}
+
+#logins input.text {
+	border: 1px solid #000;
+	padding: 2px;
+	width: 95%;
+}
+
+#logins input.text:focus {
+	padding: 2px;
+	background-color: #e6e6e6;
+	border: 1px solid #9d3f33;
+	width: 95%;
+}
+
+input.button {
+	margin-top: 10px;
+	border: 1px outset #ccc;
+}
