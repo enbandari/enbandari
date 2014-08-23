@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">TimeMusic</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">定时音乐播放器</string>
+    <string name="startservice">启动服务</string>
+    <string name="stopservice">停止服务</string>
+    <string name="callingtext">输入号码</string>
+    <string name="startmusic">播放音乐</string>
+    <string name ="stopmusic">停止音乐</string>
+    <string name = "selectsong">选择歌曲</string>
+    <string name="songlist">管理列表</string>
+	
+</resources>
