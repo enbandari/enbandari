@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">TimeCalling</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">自动拨号</string>
+    <string name="startservice">启动服务</string>
+    <string name="stopservice">停止服务</string>
+    <string name="callingtext">输入号码</string>
+    <string name="editnumberhint">Input a phone number</string>
+
+</resources>
